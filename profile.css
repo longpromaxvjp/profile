@@ -1,0 +1,62 @@
+*{
+	background-color: black;
+	margin-right: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+.header{
+	height: 150px;
+	color: white;
+	font-family: 'Jura', sans-serif;
+	font-size: 100px;
+}
+
+.head1{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.large{
+	font-size: 70px;
+}
+
+.medium{
+	font-size: 25px;
+}
+
+.img{  
+	max-width:175;
+  	max-height: 175px;
+}
+
+.container{
+	color: white;
+	margin-top: 5px;
+	font-family: 'Jura', sans-serif;
+	font-size: 20px;
+}
+
+.cont1{
+	margin-left: 250px;
+	text-align: center;
+	display: inline-block;
+
+}
+.cont2{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 250px;
+	text-align: center;
+}
+.inf{
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.text{
+	margin-top: 20px;
+}
