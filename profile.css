@@ -1,4 +1,4 @@
-*{
+* {
 	background-color: black;
 	margin-right: 0;
 	margin-top: 0;
@@ -6,57 +6,288 @@
 	margin-bottom: 0;
 }
 
-.header{
-	height: 150px;
+.header {
+	height: 75px;
+	position: fixed;
+	width: 1515px;
+}
+
+.banner {
 	color: white;
 	font-family: 'Jura', sans-serif;
-	font-size: 100px;
-}
-
-.head1{
-	margin-top: 50px;
+	font-size: 18px;
+	float: left;
+	width: 30%;
 	text-align: center;
+	margin-top: 10px;
+
 }
 
-.large{
-	font-size: 70px;
+.menu {
+	font-family: 'Jura', sans-serif;
+	float: left;
+	width: 70%;
+	height: 100%;
 }
 
-.medium{
-	font-size: 25px;
+
+.b {
+	width: auto;
+	text-align: center;
+	flex-direction: column;
+	float: left;
+	margin-top: 25px;
+	text-align: center;
+
 }
 
-.img{  
-	max-width:175;
-  	max-height: 175px;
+
+.button {
+	font-family: 'Jura', sans-serif;
+	font-size: 23.5px;
+	background-color: rgb(0, 0, 0);
+	color: #ffffff;
+	background: #000000;
+	text-decoration: none;
+	margin-left: 12px;
+	position: relative;
+	overflow: hidden;
 }
 
-.container{
+a::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 2px;
+	background: currentcolor;
+	transform: translateX(0%);
+	transition: transform 1s ease;
+}
+
+a:hover::before {
+	transform: translateX(150%);
+}
+
+.img {
+	width: 225px;
+	height: 225px;
+	margin-left: 300px;
+	border-radius: 30%;
+}
+
+.container {
 	color: white;
-	margin-top: 5px;
+	margin-top: 0px;
 	font-family: 'Jura', sans-serif;
 	font-size: 20px;
 }
 
-.cont1{
-	margin-left: 250px;
-	text-align: center;
-	display: inline-block;
+.info {
+	height: 700px;
+}
 
-}
-.cont2{
-	display: inline-block;
-	margin-top: 40px;
-	margin-left: 250px;
-	text-align: center;
-}
-.inf{
-	width: 200px;
+.info1 {
+
+	width: 40%;
 	float: left;
-	margin-left: 100px;
-	text-align: center;
+	flex-direction: column;
+	margin-top: 200px;
 }
 
-.text{
-	margin-top: 20px;
+.info2 {
+
+	width: 60%;
+	float: left;
+	flex-direction: column;
+	margin-top: 170px;
 }
+
+p {
+	margin-top: 30px;
+}
+
+#mt {
+	height: 700px;
+}
+
+.end1 {
+	height: 200px;
+}
+
+.muctieu {
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
+}
+
+.hocvan {
+	margin-top: 10px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 660px;
+	text-align: left;
+}
+
+.end2 {
+	height: 80px;
+}
+
+.hocvan1 {
+	width: 40%;
+	float: left;
+	flex-direction: column;
+	margin-top: 170px;
+}
+
+.hocvan2 {
+	width: 60%;
+	float: left;
+	flex-direction: column;
+	margin-top: 170px;
+}
+
+.img1 {
+	margin-top: 10px;
+	width: 225px;
+	height: 225px;
+	margin-left: 100px;
+	border-radius: 30%;
+}
+
+.kienthuc {
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 200px;
+	height: 700px;
+	text-align: left;
+}
+
+.end3{
+	height: 100px;
+}
+
+.kienthuc1 {
+	width: 50%;
+	float: left;
+}
+
+.kienthuc2 {
+	width: 50%;
+	float: left;
+}
+
+.anh {
+	width: 28%;
+	float: left;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.mota {
+	width: 72%;
+	float: left;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.test {
+	width: 100%;
+	float: right;
+}
+
+.img2 {
+	margin-top: 10px;
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+	border-radius: 30%;
+}
+
+.kynang {
+	margin-left: 80px;
+	margin-right: 50px;
+	height: 600px;
+	text-align: left;
+}
+
+.end4{
+	height: 125px;
+}
+
+.kynang1 {
+	width: 50%;
+	float: left;
+}
+
+.kynang2 {
+	width: 50%;
+	float: left;
+}
+
+.mota1 {
+	width: 72%;
+	float: left;
+	flex-direction: column;
+	margin-top: 75px;
+}
+
+.anh1 {
+	width: 28%;
+	float: left;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.test1 {
+	width: 100%;
+	float: right;
+}
+
+.kynang {
+	margin-left: 80px;
+	margin-right: 50px;
+	height: 600px;
+	text-align: left;
+}
+
+.sothich {
+	margin-left: 80px;
+	margin-right: 50px;
+	height: 700px;
+	text-align: left;
+}
+
+.end5{
+	height: 80px;
+}
+
+.sothich1 {
+	width: 50%;
+	float: left;
+}
+
+.mota2 {
+	width: 72%;
+	float: left;
+	flex-direction: column;
+	margin-top: 85px;
+}
+
+.anh2 {
+	width: 28%;
+	float: left;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.test2 {
+	width: 100%;
+	float: right;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
